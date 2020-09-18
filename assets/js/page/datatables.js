@@ -40,10 +40,44 @@ $("#table-2").dataTable({
   order: [[ 1, "asc" ]] //column indexes is zero based
   
 });
+
 $('#save-stage').DataTable({
 		"scrollX": true,
 		stateSave: true
 	});
+$('#save-stage-2013').DataTable({
+		// "scrollX": true,
+		stateSave: true
+	});
+$('#save-stage-2014').DataTable({
+		// "scrollX": true,
+		stateSave: true
+	});
+$('#save-stage-2015').DataTable({
+		// "scrollX": true,
+		stateSave: true
+	});
+$('#save-stage-2016').DataTable({
+		// "scrollX": true,
+		stateSave: true
+	});
+$('#save-stage-2017').DataTable({
+		// "scrollX": true,
+		stateSave: true
+	});
+$('#save-stage-2018').DataTable({
+		// "scrollX": true,
+		stateSave: true
+  });
+  $('#save-stage-2019').DataTable({
+		// "scrollX": true,
+		stateSave: true
+  });
+  $('#save-stage-2020').DataTable({
+		// "scrollX": true,
+		stateSave: true
+  });
+  
 $('#tableExport').DataTable({
 		dom: 'Bfrtip',
 		buttons: [
